@@ -170,7 +170,12 @@ section:nth-of-type(2n + 2) {
 }
 
 .ready-download h3 {
-   margin: 40px 0 40px 0;
+   padding: 40px 0;
+   margin: auto;
+   background-image: url('../img/stars.svg');
+   background-position: top;
+   background-size: 60%;
+   background-repeat: no-repeat;
    font-size: 33px;
    text-align: center;
 }
