@@ -191,3 +191,12 @@ img.center {
    width: 100%;
 }
 
+/* FOOTER***********  */
+footer {
+   background-color: #23272A;
+   color: #FFF;
+}
+
+h4 {
+   color: #7289DB;
+}
