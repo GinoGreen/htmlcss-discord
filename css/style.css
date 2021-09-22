@@ -123,9 +123,26 @@ header {
 }
 
 /* MAIN  */
-section .caption {
+main section {
+   padding: 50px 0;
+}
+
+section:nth-of-type(2n + 2) {
+   background-color: #F6F6F6;
+}
+/* area testi  */
+.clearfix .caption {
    width: 400px;
    display: inline-block;
+}
+
+.caption.full-width {
+   max-width: 1080px;
+   width: 90%;
+}
+
+.caption.full-width p, .caption.full-width .title{
+   text-align: center;
 }
 
 .caption h2 {
@@ -137,11 +154,21 @@ section .caption {
    line-height: 35px;
 }
 
-
+/* area float  */
 .ltr img, .rtl .caption {
    float: left;
 }
 
 .rtl img, .ltr .caption {
    float: right;
+}
+
+/* immagini  */
+.center, .full-width {
+   margin: auto;
+   display: block;
+}
+
+img.center {
+   width: 100%;
 }
