@@ -78,15 +78,16 @@ header {
   line-height: 80px;
 }
 
-/* logo */
-.logo, .main-nav {
-  float: left;
-}
-
-#accedi {
-   float: right;
+/* area float  */
+.ltr img, .rtl .caption, .social, .product, .company, .resources, .standards, .logo, .main-nav{
+   float: left;
+ }
+ 
+ #accedi, #sign-in, .rtl img, .ltr .caption {
+    float: right;
  }
 
+/* logo */
 .logo img {
   vertical-align: middle;
 }
@@ -173,16 +174,6 @@ section:nth-of-type(2n + 2) {
    font-size: 33px;
    text-align: center;
 }
-/* area float  */
-.ltr img, .rtl .caption, .social, .product, .company, .resources, .standards {
-   float: left;
-}
-
-.rtl img, .ltr .caption {
-   float: right;
-}
-
-
 
 /* immagini  */
 .center, .full-width {
@@ -248,4 +239,9 @@ h4, .top-footer li:first-of-type a {
 
 .top-footer li a {
    line-height: 30px;
+}
+
+/* parte inferiore footer */
+.bottom-footer {
+   padding: 40px 0 70px 0;
 }
